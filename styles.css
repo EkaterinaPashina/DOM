@@ -1,0 +1,36 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 30px;
+    color: #302c2c;
+}
+
+.basket__card {
+    border-left: 2px solid #6a6767;
+    border-right: 2px solid #6a6767;
+    border-bottom: 2px solid #6a6767;
+    display: flex;
+}
+
+.basket__card:first-child {
+    border-top: 2px solid #6a6767;
+}
+
+.card__image {
+    width: 90px;
+    height: 126px;
+    padding: 10px 10px;
+}
+
+.discription__title {
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.discription__text {
+    font-size: 15px;
+    line-height: 18px;
+    color: #a8a5a5;
+}
