@@ -3,8 +3,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 16px;
     color: #302c2c;
+}
+
+.basket__title {
+    font-size: 1.875rem;
 }
 
 .basket__card {
@@ -12,6 +16,13 @@
     border-right: 2px solid #6a6767;
     border-bottom: 2px solid #6a6767;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .basket__card:first-child {
@@ -25,12 +36,46 @@
 }
 
 .discription__title {
-    font-size: 19px;
-    line-height: 20px;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+}
+
+.discription__title:hover {
+    color: #706f44;
 }
 
 .discription__text {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 0.93rem;
+    line-height: 0.9rem;
     color: #a8a5a5;
+}
+
+.basket__button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    line-height: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.basket__total {
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+.basket__count {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.card__price {
+    padding-right: 2.5rem;
+}
+
+.card__price_count {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
