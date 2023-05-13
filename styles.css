@@ -58,6 +58,8 @@
     line-height: 1rem;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
+    width: 16rem;
+    height: 5rem;
 }
 
 .basket__total {
@@ -78,4 +80,9 @@
 .card__price_count {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+#basket__total__result {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
