@@ -11,4 +11,6 @@ paragraph.textContent = String(result) + 'р';
 const myFunction = () => {
     const paragraph = document.querySelector('#basket__total__result');
     paragraph.textContent = String(result / 100 * 80) + 'р';
+    const changedSale = document.querySelector('.basket__button');
+    changedSale.textContent = 'Скидка применена';
 };
