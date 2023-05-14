@@ -47,7 +47,7 @@
 
 .discription__text {
     font-size: 0.93rem;
-    line-height: 0.9rem;
+    line-height: 0.8rem;
     color: #a8a5a5;
 }
 
@@ -70,6 +70,7 @@
 .basket__total {
     font-size: 2rem;
     padding-right: 1.5rem;
+    padding-top: 1rem;
 }
 
 .basket__count {
@@ -90,4 +91,6 @@
 #basket__total__result {
     font-size: 1.5rem;
     font-weight: 600;
+    margin-top: 0.5rem;
+    line-height: 0;
 }
